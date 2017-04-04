@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    p.gray{
+        background-color: gray;
+    }
+    h1{
+        background-color: transparent;
+    }
+    h2{
+        background-color: rgb(250,0,255);
+    }
+    h3{
+        background-color: #00ff00;
+    }
+    div#test{
+        background-image: url(background.jpg);
+        width: 200px;
+        height:100px;
+    }
+    div#noRepeat{
+        background-image: url(background_small.jpg);
+        width:200px;
+        height: 100px;
+        background-repeat: no-repeat;
+    }
+    div#repeat-x{
+        background-image: url(background_small.jpg);
+        width:200px;
+        height: 100px;
+        background-repeat: repeat-x;
+    }
+    div#contain{
+        background-image: url(background_small.jpg);
+        width: 500px;
+        height: 100px;
+        background-size:contain ;
+    }
+
+</style>
+<p class="gray">灰色</p>
+<h1>透明背景，默认即透明背景</h1>
+<h2>紫色</h2>
+<h3>绿色背景</h3>
+<div id="test">
+    这是一个有背景图的DIV
+</div>
+<div id="noRepeat">背景不重复</div>
+<div id="repeat-x">背景水平重复</div>
+<div id="contain">背景平铺，通过拉伸实现，会有失真</div>
+</body>
+</html>
