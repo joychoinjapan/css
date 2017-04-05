@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .solid{
+        border-style: solid;
+        border-color: darkred;
+    }
+    .dotted{
+        border-style: dotted;
+        border-width: 1px;
+    }
+    .dashed{
+        border-style:dashed;
+    }
+    .double{
+        border-style:double;
+    }
+    .default{
+        border-style: solid;
+        border-color: red;
+    }
+    .red{
+        border:1px dotted LightSkyBlue;
+    }
+    .up{
+        width:150px;
+        height: 150px;
+        border-top-style: solid;
+        border-top-color:red ;
+        border-top-width: 50px;
+        background-color:lightgrey ;
+    }
+    div.lefttop{
+        width: 150px;
+        height:150px;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-top-color: red;
+        border-left-color: blue;
+        border-top-width: 50px; ;
+        border-left-width:50px;
+        background-color: burlywood;
+    }
+    .alldirection{
+        text-align: center;
+        vertical-align: middle;
+        line-height: 250px;
+        width: 250px;
+        height: 250px;
+        border-top:solid red 50px;;
+        border-bottom: solid yellow 50px;
+        border-left: solid blue 50px;
+        border-right: solid green 50px;
+        background-color: burlywood;
+    }
+    .purple{
+        border: 1px solid purple ;
+        font-size: 5em;
+
+    }
+
+</style>
+<body>
+<div>
+    默认无边框div
+</div>
+<div class="solid" >实线边框</div>
+<br>
+<div class="dotted"> 点线边框</div>
+<br>
+<div class="dashed">虚线边框</div>
+<br>
+<div class="double">双线边框</div>
+<br>
+<div class="default">实线红色默认宽度边框</div>
+<div>默认无边框dic</div>
+<div class="red">点蓝色细边框</div><br/>
+
+<div class="up">只有上面有边框</div>
+
+<div class="lefttop">左边和上边都有边框</div>
+<br>
+<div class="alldirection">四边都有边框</div>
+
+
+<div class="purple">实现紫色边框</div>
+<br>
+<span class="purple">实现紫色边框</span>
+
+</body>
+</html>
