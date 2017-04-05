@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*属性：font-size
+      值：数字或者百分比*/
+    p.big{
+        font-size: 30px;
+    }
+    p.small{
+        font-size: 50%;
+    }
+    p.small2{
+        font-size: 0.5em;
+    }
+    /*
+    font-style:
+    normal 标准字体
+    italic 斜体*/
+    p.n{
+        font-style: normal;
+    }
+    p.i{
+        font-style: italic;
+    }
+    /*
+    属性 font-weight
+    normal 标准粗细
+    bold 粗一点
+    */
+    p.n{
+        font-weight: normal;
+    }
+    p.b{
+        font-weight: bold;
+    }
+    /*
+    属性字体font-family
+    */
+    p.f1{font-family: "Times New Roman"}
+    p.f2{font-family: 宋体}
+    p.f3{font-family: 黑体}
+    p.f4{font-family: 楷体}
+    p.f5{font-family: 微软雅黑}
+    p.f6{font-family: Arial}
+    /*
+    把大小，风格，粗细，字库都写在一行里面
+    */
+    p.all{
+        font:italic bold 30px "Times New Roman" ;
+    }
+
+</style>
+<body>
+<p>
+    正常大小
+</p>
+<p class="big">30px大小的文字</p>
+<p class="small">50%比例的文字</p>
+<p class="small2">0.5em 等同于 50%比例的文字</p>
+<br>
+<p>标准字体</p>
+<p class="n">标准字体</p>
+<p class="i">斜体</p>
+<br>
+<p>标准字体</p>
+<p class="n">标准字体</p>
+<p class="b">粗一点</p>
+
+
+<br>
+<p >默认字库 font family:default </p>
+<p class="f1">设置字库 font-family: Times New Roman</p>
+<p class="f2">设置字库 font-family: 宋体</p>
+<p class="f3">设置字库 font-family: 黑体</p>
+<p class="f4">设置字库 font-family: 楷体</p>
+<p class="f5">设置字库 font-family: 微软雅黑</p>
+<p class="f6">设置字库 font-family: Arial</p>
+<br>
+<p>默认字体</p>
+<p class="all">斜体的 粗体的 大小是30px的"Times New Roman"</p>
+</body>
+</html>
