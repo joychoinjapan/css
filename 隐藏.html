@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div.d{
+        display: none;/*隐藏一个元素，元素不占有原空间，坑让出来了*/
+    }
+    div.d{
+        visibility: hidden;/*隐藏一个元素，这个元素继续占有原空间，只是看不见*/
+    }
+</style>
+<body>
+<div>可见的div</div>
+<div class="d">隐藏的div2 使用display：none隐藏</div>
+<div>可见的div3</div>
+<div class="v">隐藏的div4 使用visibility：hidden隐藏</div>
+<div>可见的div5</div>
+</body>
+</html>
