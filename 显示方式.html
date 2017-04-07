@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div,span{
+        border: 1px gold solid;
+        margin: 10px;
+        width: 200px;
+        height: 100px;
+    }
+    div.d{
+          display: none;
+      }
+    span.d{
+        display: block;
+    }
+    div.s{
+        display: inline;
+    }
+    span.kuai{
+        display: inline-block;
+        border: darkgoldenrod dotted 1px;
+        margin: 10px;
+        width: 100px;
+    }
+</style>
+<body>
+<div>可见的div1</div>
+<div class="d">隐藏的div2.食用dispaly：none隐藏</div>
+<div>可见的div3</div>
+
+<div>普通的div块</div>
+<span>这是普通的span</span><span>这是普通的span</span><span>这是普通的span</span>
+<span class="d">这是span,被改造成了块级元素</span>
+<div class="s">这是div被改造成了内联元素</div>
+<span class="kuai">a</span><span class="kuai">b</span><span class="kuai">c</span><span class="kuai">d</span>
+</body>
+</html>

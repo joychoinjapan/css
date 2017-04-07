@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .r{
+        float:right;
+    }
+    .f{
+        float:left;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+
+    .clearp{
+        clear: left;
+    }
+    div#floatingDiv{
+        width: 200px;
+
+    }
+    div#floatingDiv div{
+        float: left;
+    }
+
+
+
+</style>
+<body>
+<div>正常文字1</div>
+<div>正常文字2</div>
+<div class="r">浮动的文字</div>
+<div>正常文字4</div>
+<div>正常文字5</div>
+
+<div>正常文字6</div>
+<div>正常文字7</div>
+<div class="f">正常文字8</div>
+<div>正常文字9</div>
+<div>正常文字10</div>
+
+<div>
+    <img class="f" src="background.jpg">
+    <p>当图片浮动时，文字围绕着图片
+        当图片浮动时，文字围绕着图片
+        当图片浮动时，文字围绕着图片
+        当图片浮动时，文字围绕着图片
+        当图片浮动时，文字围绕着图片
+        当图片浮动时，文字围绕着图片</p>
+</div>
+<div class="clear"></div>
+<div>
+    <img class="no" src="background.jpg">
+    <p class="clearp">当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。
+        当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。
+        当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。
+        当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。
+        当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。当图片浮动时，文字却不想围绕着图片。</p>
+</div>
+
+<div id="floatingDiv">
+    <div>菜单</div>
+    <div>菜单</div>
+    <div>菜单</div>
+    <div>菜单</div>
+    <div>菜单</div>
+    <div>菜单</div>
+    <div>菜单</div>
+
+</div>
+</body>
+</html>
